@@ -41,7 +41,7 @@ public class GraphicsDisplay extends JPanel {
         setBackground(Color.WHITE);
 // Сконструировать необходимые объекты, используемые в рисовании
         graphicsStroke = new BasicStroke(3.0f, BasicStroke.CAP_BUTT,
-                BasicStroke.JOIN_ROUND, 10.0f, new float[]{9,6,6,9,3}, 0.0f);
+                BasicStroke.JOIN_ROUND, 10.0f, new float[]{4,1,1,1,1,2,1,2}, 0.0f);
 
         axisStroke = new BasicStroke(2.0f, BasicStroke.CAP_BUTT,
                 BasicStroke.JOIN_MITER, 10.0f, null, 0.0f);
